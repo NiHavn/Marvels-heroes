@@ -1,0 +1,15 @@
+main{
+    margin: 5%;
+}
+
+article > main {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.card{
+    background-color: white;
+    
+}
