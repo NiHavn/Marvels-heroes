@@ -1,15 +1,68 @@
+body{
+    margin: 0;
+}
+
 main{
     margin: 5%;
 }
 
-article > main {
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 20px;
+#header{
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+  }
+
+#header  ul {
+    display: inline-block;
+  }
+
+#header ul > li {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+#header ul > li::first-letter{
+ color: orange;
+ font-weight: bold;
+}
+
+
+#header a {
+    color: inherit;
+  }
+
+main > *,
+article > *{
+    margin: 20px 0;
 }
 
 .card{
     background-color: white;
-    
+    box-sizing: border-box;
+    border: orangered solid;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 7px 7px 10px 3px darkgray;   
 }
+
+.card > div{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.card > div.Right,
+.card > div.Left{
+    height: 100%;
+    width: 45%;
+}
+
+.card > div > figure > img{
+    width: 100%;
+}
+
+.kort{
+    text-align: justify;
+    padding: 5%;
+}
+
